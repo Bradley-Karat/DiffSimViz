@@ -2,7 +2,7 @@
 
 DiffSimViz (Diffusion Simulator Visualizer) is a python toolbox CLI with the aim of providing intuitive visualizations of particle diffusion in different media/microstructure.
 
-> _2D Examples:_<br>![2D_example](images/16mol_45deg.gif)![2D_example](images/16mol_45degstick_origin.gif)<br>![2D_example](images/24mol_38.0deg.gif)![2D_example](images\24mol_38.0degstick_origin.gif)
+> _2D Examples:_<br>![2D_example](images/16mol_45deg.gif)![2D_example](images/16mol_45degstick_origin.gif)<br>![2D_example](images/24mol_38.0deg.gif)![2D_example](images/24mol_38.0degstick_origin.gif)
 
 > _3D Example_:<br>![3D_example](images/animated_3d.gif)
 
