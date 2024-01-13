@@ -14,7 +14,23 @@ The use of such a visualizer will be didactic or for researchers to better under
 
 ## Usage
 
-`-mol` | `--numofmol`
+Create and activate a Python virtual environment:
+python -m venv venv
+
+    python -m venv venv
+    source venv/bin/activate
+    # If on Windows:
+    .\venv\Scripts\activate
+
+Install Python dependencies:
+
+    pip install -r requirements.txt
+
+Run the program:
+
+    python diffsimviz.py
+
+### Arguments
 
     -mol, --numofmol: Number of molecules (default: 8)
     -steps, --steps: Number of steps (time steps) in the simulation (default: 30)
@@ -26,3 +42,7 @@ The use of such a visualizer will be didactic or for researchers to better under
             the position at time t=0 and whose variance is (delta^2)*t.
     -time: Total time for the simulation (default: 7)
     -sticks: Number of 'sticks', pairs of walls representing axons, fibres, and etc. to be included in the simulation (default: 2)
+
+###Example command:
+
+    python diffsimviz.py -mol 12 -steps 50 -rad 0.3 -vrad 0.25 -theta 60 -delta 0.5 -time 10 -sticks 3
