@@ -43,6 +43,6 @@ Run the program:
     -time: Total time for the simulation (default: 7)
     -sticks: Number of 'sticks', pairs of walls representing axons, fibres, and etc. to be included in the simulation (default: 2)
 
-###Example command:
+### Example command:
 
     python diffsimviz.py -mol 12 -steps 50 -rad 0.3 -vrad 0.25 -theta 60 -delta 0.5 -time 10 -sticks 3
